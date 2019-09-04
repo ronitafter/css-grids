@@ -2,7 +2,6 @@
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-gap:1em;
-	/*grid-auto-rows:100px;*/
 	grid-auto-rows:minmax(100px, auto);
 }
 
