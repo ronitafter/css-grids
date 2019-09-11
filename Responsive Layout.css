@@ -88,8 +88,7 @@ font-weight:bold;
 
   margin-top:80px;
   margin-bottom:10px;
-  font-size:55px;
-  
+  font-size:55px; 
 }
 
 #showcase p{
@@ -133,7 +132,6 @@ padding:10px;
 }
 
 #boxes .box img{
-
   width:90px;
 }
 
