@@ -1,7 +1,4 @@
 body{
- /* font-family: Arial, Helvetica, sans-serif;
-  font-size:15px;
-  line-height:1.5;*/
 
   font: 15px/1.5 Arial, Helvetica, Sans-Serif;
   padding:0;
@@ -82,14 +79,12 @@ font-weight:bold;
 #showcase{
   padding-bottom: 60px;
   text-align:center;
-  /*color:#fff;*/
   min-width:400px;
   background: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_960_720.jpg') no-repeat;
   background-size:1270px 380px;
-  /*background-position: 0 0 0 0;*/
  background-position:center;
  opacity: 0.6;
-  /*color-interpolation-filters: inherit;*/
+
 }
  
 
