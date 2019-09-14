@@ -1,0 +1,191 @@
+body{
+ /* font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;*/
+
+  font: 15px/1.5 Arial, Helvetica, Sans-Serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4; 
+}
+
+/*Global*/
+.container{
+width:80%;
+margin:auto;
+overflow: hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  }
+
+  .button_1{
+height:38px;
+background:#07a3ab;
+border:0;
+padding-left:20px;
+padding-right:20px;
+color:#fff;
+
+  }
+/*Header*/
+header{
+
+  background-color:#35424a;
+  color:#fff;
+  padding-top:30px;
+  min-width:70px;
+  border-bottom:#07a3ab 2px solid;
+}
+
+header a{
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+font-size:15px;
+}
+
+header li{
+float:left;
+display:inline;
+padding:0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+  margin-bottom:15px;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+float: right;
+margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color: #07a3ab;
+  font-weight: bold;
+}
+
+header a:hover{
+color:#ccc;
+font-weight:bold;
+}
+
+/* Showcase*/
+
+#showcase{
+  padding-bottom: 60px;
+  text-align:center;
+  /*color:#fff;*/
+  min-width:400px;
+  background: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_960_720.jpg') no-repeat;
+  background-size:1270px 380px;
+  /*background-position: 0 0 0 0;*/
+ background-position:center;
+ opacity: 0.6;
+  /*color-interpolation-filters: inherit;*/
+}
+ 
+
+#showcase h1{
+  color:#fff;
+  margin-top:40px;
+  margin-bottom:10px;
+  font-size: 55px;
+
+}
+
+#showcase p{
+  font-size:20px;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom:50px;
+  color:#fff;
+}
+
+#newsletter{
+  padding:15px;
+  color:#fff;
+  background: #35424a;
+}
+
+#newsletter h1{
+float: left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/*Boxes*/
+
+#boxes{
+margin-top:20px;
+}
+
+#boxes .box{
+float:left;
+text-align: center;
+width:30%;
+padding:10px;
+}
+
+#boxes .box img{
+
+width:60px;
+}
+
+
+#boxes{
+  margin-top:20px;
+  }
+  
+  #boxes .box-1{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  }
+  
+  #boxes .box-1 img{
+  
+  width:30px;
+  }
+
+
+  #boxes{
+    margin-top:20px;
+    }
+    
+    #boxes .box-3{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+    }
+    
+    #boxes .box-3 img{
+    
+    width:40px;
+    }
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#fff;
+  background: #07a3ab;
+  text-align: center;
+}
