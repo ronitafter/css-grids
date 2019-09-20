@@ -207,10 +207,6 @@ width:60px;
     color: #000;
  font-size: 50px;
  line-height:center;
-  min-width:400px;
-  background: url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_960_720.jpg') no-repeat;
-  background-size:100%;
- background-position:center;
   }
     
    /*sidebar*/
@@ -222,6 +218,34 @@ width:60px;
     margin-top:10px;
  
 
+  }
+
+  #contact{
+    padding-bottom: 90px;
+    text-align:center;
+    min-width:400px;
+    background: url('https://cdn.pixabay.com/photo/2018/09/18/10/50/smartphone-3685851_960_720.jpg') no-repeat;
+    background-size:100%;
+   background-position:center;
+   /*opacity: 0.6;*/
+   /*backdrop-filter:saturate;*/
+   /*filter: blur(5px);*/
+   /* -webkit-filter: blur(5px);*/
+  }
+   
+  #contact h1{
+    color:#fff;
+    margin-top:40px;
+    margin-bottom:10px;
+    font-size: 55px;
+  }
+  
+  #contact p{
+    font-size:20px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:50px;
+    color:#fff;
   }
 
 
