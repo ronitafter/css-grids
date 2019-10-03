@@ -1,0 +1,187 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height:1.5;
+padding:0;
+margin:0;
+background-color:#f4f4f4;
+}
+
+/*Global*/
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  }
+  
+.button_1{
+
+  height:38px;
+  background: #60BAAE;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#fff;
+
+}
+
+mark { 
+  background-color:#60BAAE;
+  color: black;
+}
+
+/*Header**/
+
+header{
+  background:#38005C;
+  color:#fff;
+  font-family: 'Sofia';font-size: 22px;
+  padding-top:30px;
+  min-height:90px;
+  border-bottom:#fff 1.5px solid; 
+}
+
+header a{
+
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header li{
+
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+
+color:#fff;
+font-weight:bold;
+}
+
+header a:hover{
+color:#ccc;
+font-weight:bold;
+}
+
+/*showcase*/
+/* 0-100px*/
+
+.showcase{
+  min-height: 400px;
+  background: url('https://assets.rappler.com/612F469A6EA84F6BAE882D2B94A4B421/img/863FF126DB1D4B0EB62DDA303B6C02C2/pumpkin-spice-1-1_863FF126DB1D4B0EB62DDA303B6C02C2.jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align:center;
+  color:#000;
+
+}
+
+.showcase h1{
+  margin-top:70px;
+  margin-bottom: 30px;
+  font-size:50px;
+}
+
+.showcase p{
+font-size:25px;
+
+
+}
+
+#newsletter{
+  padding:15px;
+  color:#fff;
+  background:#38005C;
+}
+
+#newsletter h1{
+
+float:left;
+}
+
+#newsletter form{
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/*Boxes*/
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+
+  float:left;
+  width:30%;
+  padding:10px;
+  text-align: center;
+}
+ 
+
+#boxes .box img{
+width:90px;
+}
+
+
+
+.showcase2{
+  min-height: 400px;
+  background: url('https://image.freepik.com/free-photo/caramel-milkshake-table_1339-5231.jpg') no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align:center;
+  color:#000;
+
+}
+
+.showcase2 h1{
+  margin-top:70px;
+  margin-bottom: 30px;
+  font-size:50px;
+}
+
+.showcase2 p{
+font-size:25px;
+}
+
+
+footer{
+padding:20px;
+margin-top:20px;
+color:#fff;
+background-color:#38005C;
+text-align:center;
+}
